@@ -1,0 +1,20 @@
+[
+  {
+    "raw_model": "gpt-4o-deployment",
+    "input_tokens": 4200000,
+    "output_tokens": 1100000,
+    "cached_tokens": 900000,
+    "n_requests": 18500,
+    "period_start": "2026-06-01",
+    "period_end": "2026-06-30"
+  },
+  {
+    "raw_model": "gpt-4o-deployment",
+    "input_tokens": 3100000,
+    "output_tokens": 780000,
+    "cached_tokens": 650000,
+    "n_requests": 12400,
+    "period_start": "2026-05-01",
+    "period_end": "2026-05-31"
+  }
+]

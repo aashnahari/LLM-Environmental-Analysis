@@ -1,0 +1,5 @@
+[
+  {"tier": "instant", "n_messages": 26000},
+  {"tier": "thinking", "n_messages": 4200},
+  {"tier": "pro", "n_messages": 150}
+]

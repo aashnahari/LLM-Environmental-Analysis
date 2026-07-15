@@ -1,0 +1,13 @@
+[
+  {
+    "raw_model": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "input_tokens": 500000,
+    "output_tokens": 210000,
+    "n_requests": 900
+  },
+  {
+    "raw_model": "anthropic.claude-3-7-sonnet-20250219-v1:0",
+    "total_usd": 65.00,
+    "n_requests": 400
+  }
+]
