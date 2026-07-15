@@ -19,7 +19,7 @@ CODEX_RATES_PER_1M = {
 }
 
 # energy_model.COEFFICIENTS only covers gpt-4o/claude-3.7-sonnet, so current
-# Codex models proxy to the closest stand-in -- a guess, not a measurement.
+# Codex models proxy to the closest stand-in 
 CODEX_MODEL_PROXY_MAP = {
     "gpt-5.6-sol":   "gpt-4o",
     "gpt-5.6-terra": "gpt-4o",
