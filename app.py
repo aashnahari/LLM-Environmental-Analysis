@@ -100,7 +100,9 @@ st.write(
 st.caption(f"{grand_total.n_estimated} of {grand_total.n_records} records rest on an estimate, not measured tokens.")
 
 source_df = pd.DataFrame([totals_row(s.value, t) for s, t in by_source(records).items()]).set_index("")
+source_df.index.name = "source"
 model_df = pd.DataFrame([totals_row(m, t) for m, t in by_model(records).items()]).set_index("")
+model_df.index.name = "model"
 
 st.write("")
 st.markdown("**Energy by source**")
